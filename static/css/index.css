@@ -1,0 +1,248 @@
+/*通用样式*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #fff;
+	background: #eee;
+}
+
+img {
+	width: 100%;
+	display: block;
+	-wekit-user-select:none;
+	-moz-user-select:none;
+	-o-user-select:none;
+	user-select: none;
+}
+
+b {
+	color: #deb832;
+	font-weight: normal;
+}
+
+
+/*主体开始*/
+
+section{
+	width: 100%;
+	max-width: 590px;
+	margin: 0 auto;
+	background: #0c292f;
+	background-size: contain;
+}
+
+.bq {
+	text-indent: 0 !important;
+	padding-bottom: 4.8rem !important;
+	text-align: center;
+	color: #999;
+	font-size: .9rem;
+	margin-bottom: 2rem;
+}
+
+.db {
+	display: block;
+}
+
+/*主体结束*/
+
+
+/*center开始*/
+
+center{
+	padding: 1rem 1rem 0 1rem;
+	text-align: center;
+}
+
+center p{
+	padding-bottom: 1rem;
+}
+
+center img{
+	padding-bottom: 1.6rem;
+}
+
+center p{
+	text-indent: 2rem;
+	font-size: 1rem;
+	text-align: left;
+	letter-spacing: 1px;
+	line-height: 1.7rem;
+}
+
+.item{
+	display: block;
+	margin: 1rem auto .6rem;
+}
+
+.indent p{
+	text-indent: 0;
+}
+
+.indent span{
+	font-size: 1.2rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+.q-img{
+	width: 90%;
+	padding-bottom: .6rem;
+}
+
+
+/* 引导语 */
+
+.wechat{
+	width: 100%;
+	margin: 0rem auto 2rem;
+	background-color: #fffae7;
+}
+
+.wechat .wxbto{
+	width: 100%;
+	transform: rotate(180deg);
+    padding: 0;
+}
+
+.wxitem{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.wxtop{
+	padding: 0;
+}
+
+.wxitem p{
+	color: #333;
+	text-indent: 0;
+	text-align: center;
+	font-size: 1rem;
+	padding-bottom: .6rem;
+}
+
+.wxcode{
+	font-size: 1.4rem;
+	font-weight: bold;
+    color: #ff6400;
+    display: inline-block;
+    border-radius: 4px;
+    text-indent: 0;
+}
+
+.wechat h1{
+	text-align: center;
+	color: #0C292F;
+	font-size: 1.4rem;
+	font-weight: bold;
+	padding-bottom: .6rem;
+	letter-spacing: 2px;
+}
+
+.wechat b{
+	color: #ff6400;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.yibo{
+	font-size: .9rem !important;
+	padding: 0;
+}
+
+/*wechat结束*/
+
+
+/*foot*/
+
+footer {
+	padding: .4rem 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #0C292F;
+	max-width: 590px;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+footer p {
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+footer .small{
+	padding-top: .4rem;
+	font-size: .9rem;
+}
+
+.tip {
+	display: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 80%;
+	height: 12rem;
+	border-radius: 20px;
+	border: 2px solid #fff;
+	background: #fff;
+	margin: auto;
+	position: fixed;
+	top: -20%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #000;
+}
+
+.ground {
+	position: absolute;
+	width: 100%;
+	top: 1rem;
+	text-align: center;
+}
+
+.ground .text {
+	margin-top: 1.5rem;
+}
+
+
+/*分页样式结束*/
+
+@media only screen and (min-width: 690px) {
+	
+	section{
+		box-shadow: #e0e0e0 0 0 10px;
+	}
+	
+	.center p{
+		font-size: 1.1rem;
+		line-height: 2rem;
+	}
+	
+	.tip {
+		width: 35rem;
+	}
+}
+
+
+
+.wuk_weixin{
+	color:red;
+	font-weight:999
+}
+.wuk_line{
+	color:red;
+	font-weight:999
+}
